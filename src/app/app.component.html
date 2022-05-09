@@ -1,0 +1,7 @@
+<div class="container ">
+    <app-table 
+    [personList]="personList"
+    (onRefresh)="refresh()"
+    (onDelete)="deletePerson($event)"
+    ></app-table>
+</div>
